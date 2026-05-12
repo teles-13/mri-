@@ -1,0 +1,22 @@
+----------------- Options ---------------
+               activation: rbf                           
+               batch_size: 1                             
+                 data_dir: /home/liujunda/data_fastmri_train
+                    epoch: 10                            	[default: 100]
+              error_scale: 1.0                           
+             features_out: 24                            
+                     gpus: 3                             	[default: 0]
+                loss_type: complex                       
+              loss_weight: 1.0                           
+                       lr: 0.0001                        
+                     mode: train                         
+                 momentum: 0.0                           
+                     name: coronal_pd_fs                 
+          num_act_weights: 31                            
+               num_stages: 10                            
+                optimizer: adam                          
+                 root_dir: data/knee                     
+         sampling_pattern: cartesian                     
+                 save_dir: exp/fastmri_varnet            	[default: exp/basic_varnet]
+                smaps_dir: /home/liujunda/data_fastmri_train_smaps
+----------------- End -------------------
